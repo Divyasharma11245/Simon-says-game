@@ -1,0 +1,67 @@
+body { 
+    text-align: center;
+}
+
+.btn {
+    width: 40vw;
+    aspect-ratio: 1 / 1; 
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; 
+    max-width: 90vw;
+    margin: auto;
+}
+
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 35vw;
+        height: 35vw;
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
